@@ -8,10 +8,6 @@ handlers:
 - url: .*
   script: bot.app
 
-- url: /set_webhook
-  login: admin
-  script: main.app
-
 libraries:
 - name: webapp2
   version: "2.5.2"
